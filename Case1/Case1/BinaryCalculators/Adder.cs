@@ -1,18 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Case1
+﻿namespace Case1.BinaryCalculators
 {
-    public class Adder
+    public class Adder:IBinaryCalculation
     {
         public string Calculate(double firstArgument, double secondArgument)
         {
             double result = firstArgument + secondArgument;
             return result.ToString();
         }
-
     }
 }

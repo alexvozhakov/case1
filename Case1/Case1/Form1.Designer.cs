@@ -39,30 +39,30 @@
             // 
             // FirstArgumentField
             // 
-            this.FirstArgumentField.Location = new System.Drawing.Point(37, 24);
+            this.FirstArgumentField.Location = new System.Drawing.Point(25, 24);
             this.FirstArgumentField.Name = "FirstArgumentField";
             this.FirstArgumentField.Size = new System.Drawing.Size(100, 20);
             this.FirstArgumentField.TabIndex = 0;
             // 
             // SecondArgumentField
             // 
-            this.SecondArgumentField.Location = new System.Drawing.Point(37, 51);
+            this.SecondArgumentField.Location = new System.Drawing.Point(162, 24);
             this.SecondArgumentField.Name = "SecondArgumentField";
             this.SecondArgumentField.Size = new System.Drawing.Size(100, 20);
             this.SecondArgumentField.TabIndex = 1;
             // 
             // ThirdArgumentField
             // 
-            this.ThirdArgumentField.Location = new System.Drawing.Point(37, 78);
+            this.ThirdArgumentField.Location = new System.Drawing.Point(25, 60);
             this.ThirdArgumentField.Name = "ThirdArgumentField";
-            this.ThirdArgumentField.Size = new System.Drawing.Size(100, 20);
+            this.ThirdArgumentField.Size = new System.Drawing.Size(237, 20);
             this.ThirdArgumentField.TabIndex = 2;
             // 
             // Summ
             // 
-            this.Summ.Location = new System.Drawing.Point(133, 192);
+            this.Summ.Location = new System.Drawing.Point(177, 194);
             this.Summ.Name = "Summ";
-            this.Summ.Size = new System.Drawing.Size(45, 44);
+            this.Summ.Size = new System.Drawing.Size(85, 44);
             this.Summ.TabIndex = 3;
             this.Summ.Text = "+";
             this.Summ.UseVisualStyleBackColor = true;
@@ -70,9 +70,9 @@
             // 
             // Mult
             // 
-            this.Mult.Location = new System.Drawing.Point(133, 128);
+            this.Mult.Location = new System.Drawing.Point(178, 134);
             this.Mult.Name = "Mult";
-            this.Mult.Size = new System.Drawing.Size(45, 42);
+            this.Mult.Size = new System.Drawing.Size(84, 42);
             this.Mult.TabIndex = 4;
             this.Mult.Text = "*";
             this.Mult.UseVisualStyleBackColor = true;
@@ -80,9 +80,9 @@
             // 
             // Div
             // 
-            this.Div.Location = new System.Drawing.Point(25, 128);
+            this.Div.Location = new System.Drawing.Point(25, 134);
             this.Div.Name = "Div";
-            this.Div.Size = new System.Drawing.Size(50, 42);
+            this.Div.Size = new System.Drawing.Size(84, 42);
             this.Div.TabIndex = 5;
             this.Div.Text = "/";
             this.Div.UseVisualStyleBackColor = true;
@@ -90,9 +90,9 @@
             // 
             // Deduc
             // 
-            this.Deduc.Location = new System.Drawing.Point(25, 192);
+            this.Deduc.Location = new System.Drawing.Point(25, 194);
             this.Deduc.Name = "Deduc";
-            this.Deduc.Size = new System.Drawing.Size(50, 44);
+            this.Deduc.Size = new System.Drawing.Size(84, 44);
             this.Deduc.TabIndex = 6;
             this.Deduc.Text = "-";
             this.Deduc.UseVisualStyleBackColor = true;

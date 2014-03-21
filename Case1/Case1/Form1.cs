@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Case1.BinaryCalculators;
 
 namespace Case1
 {
@@ -19,30 +20,34 @@ namespace Case1
 
         private void Summ_Click(object sender, EventArgs e)
         {
-           //double result = Convert.ToDouble(FirstArgumentField.Text) + Convert.ToDouble(SecondArgumentField.Text);
             double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
             double secondArgument = Convert.ToDouble(SecondArgumentField.Text);
             Adder adder = new Adder();
             ThirdArgumentField.Text = adder.Calculate(firstArgument, secondArgument);
-
         }
 
         private void Deduc_Click(object sender, EventArgs e)
         {
-            double result = Convert.ToDouble(FirstArgumentField.Text) - Convert.ToDouble(SecondArgumentField.Text);
-            ThirdArgumentField.Text = result.ToString();
+            double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
+            double secondArgument = Convert.ToDouble(SecondArgumentField.Text);
+            Deduction deduction = new Deduction();
+            ThirdArgumentField.Text = deduction.Calculate(firstArgument, secondArgument);
         }
 
         private void Div_Click(object sender, EventArgs e)
         {
-            double result = Convert.ToDouble(FirstArgumentField.Text) / Convert.ToDouble(SecondArgumentField.Text);
-            ThirdArgumentField.Text = result.ToString();
+            double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
+            double secondArgument = Convert.ToDouble(SecondArgumentField.Text);
+            Substraction substraction = new Substraction();
+            ThirdArgumentField.Text = substraction.Calculate(firstArgument, secondArgument);
         }
 
         private void Mult_Click(object sender, EventArgs e)
         {
-            double result = Convert.ToDouble(FirstArgumentField.Text) * Convert.ToDouble(SecondArgumentField.Text);
-            ThirdArgumentField.Text = result.ToString();
+            double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
+            double secondArgument = Convert.ToDouble(SecondArgumentField.Text);
+            Multiplication multiplication = new Multiplication();
+            ThirdArgumentField.Text = multiplication.Calculate(firstArgument, secondArgument);
         }
     }
 }
