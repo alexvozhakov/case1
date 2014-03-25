@@ -20,34 +20,30 @@ namespace Case1
 
         private void Summ_Click(object sender, EventArgs e)
         {
-            double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
-            double secondArgument = Convert.ToDouble(SecondArgumentField.Text);
-            Adder adder = new Adder();
-            ThirdArgumentField.Text = adder.Calculate(firstArgument, secondArgument);
+            HotDog("Add");
         }
 
         private void Deduc_Click(object sender, EventArgs e)
         {
-            double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
-            double secondArgument = Convert.ToDouble(SecondArgumentField.Text);
-            Deduction deduction = new Deduction();
-            ThirdArgumentField.Text = deduction.Calculate(firstArgument, secondArgument);
+            HotDog("Ded");
         }
 
         private void Div_Click(object sender, EventArgs e)
         {
-            double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
-            double secondArgument = Convert.ToDouble(SecondArgumentField.Text);
-            Substraction substraction = new Substraction();
-            ThirdArgumentField.Text = substraction.Calculate(firstArgument, secondArgument);
+            HotDog("Sub");
         }
 
         private void Mult_Click(object sender, EventArgs e)
         {
+            HotDog("Mult");
+        }
+
+        private void HotDog(string name )
+        {
             double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
             double secondArgument = Convert.ToDouble(SecondArgumentField.Text);
-            Multiplication multiplication = new Multiplication();
-            ThirdArgumentField.Text = multiplication.Calculate(firstArgument, secondArgument);
+            IBinaryCalculation binaryCalculation = FabricClass.CreateOperation(name);
+            ThirdArgumentField.Text = binaryCalculation.Calculate(firstArgument, secondArgument);
         }
     }
 }

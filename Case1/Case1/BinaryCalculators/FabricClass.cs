@@ -13,9 +13,9 @@ namespace Case1.BinaryCalculators
         {
             switch (name)
             {
-                case "Adder":
+                case "Add":
                     return new Adder();
-                case "Deduction":
+                case "Ded":
                     return new Deduction();
                 case "Mult":
                     return new Multiplication();
