@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Case1.BinaryCalculators
+namespace Case1.FirstCalculations
 {
-    class SinClass
+    public class SinClass:IOneCalculation
     {
+        public string Calculate(double firstArgument)
+        {
+            double result = Math.Sin(firstArgument);
+            return result.ToString();
+        }
     }
 }

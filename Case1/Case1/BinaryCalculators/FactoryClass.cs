@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Case1.BinaryCalculators
 {
-    public static class FabricClass
+    public static class FactoryClass
     {
         public static IBinaryCalculation CreateOperation(string name)
         {

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Case1.BinaryCalculators;
+using Case1.FirstCalculations;
 
 namespace Case1
 {
@@ -42,8 +43,37 @@ namespace Case1
         {
             double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
             double secondArgument = Convert.ToDouble(SecondArgumentField.Text);
-            IBinaryCalculation binaryCalculation = FabricClass.CreateOperation(name);
+            IBinaryCalculation binaryCalculation = FactoryClass.CreateOperation(name);
             ThirdArgumentField.Text = binaryCalculation.Calculate(firstArgument, secondArgument);
         }
+
+        private void Sandwitch(string name)
+        {
+            double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
+            IOneCalculation firstCalculation = FactoryClass2.CreateOperation(name);
+            ThirdArgumentField.Text = firstCalculation.Calculate(firstArgument);
+        }
+
+        private void sin_Click(object sender, EventArgs e)
+        {
+            Sandwitch("Sin");
+        }
+
+        private void cos_Click(object sender, EventArgs e)
+        {
+            Sandwitch("Cos");
+        }
+
+        private void tan_Click(object sender, EventArgs e)
+        {
+            Sandwitch("Tan");
+        }
+
+        private void cotan_Click(object sender, EventArgs e)
+        {
+            Sandwitch("Ctan");
+        }
+
+
     }
 }

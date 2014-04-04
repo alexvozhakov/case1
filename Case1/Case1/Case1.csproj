@@ -46,9 +46,15 @@
   <ItemGroup>
     <Compile Include="BinaryCalculators\Adder.cs" />
     <Compile Include="BinaryCalculators\Deduction.cs" />
-    <Compile Include="BinaryCalculators\FabricClass.cs" />
+    <Compile Include="BinaryCalculators\FactoryClass.cs" />
+    <Compile Include="FirstCalculations\Cos.cs" />
+    <Compile Include="FirstCalculations\Ctan.cs" />
+    <Compile Include="FirstCalculations\FactoryClass2.cs" />
+    <Compile Include="FirstCalculations\IOneCalculation.cs" />
     <Compile Include="BinaryCalculators\IBinaryCalculation.cs" />
+    <Compile Include="FirstCalculations\SinClass.cs" />
     <Compile Include="BinaryCalculators\Substraction.cs" />
+    <Compile Include="FirstCalculations\Tan.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
