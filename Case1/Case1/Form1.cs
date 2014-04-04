@@ -79,6 +79,11 @@ namespace Case1
             Sandwitch("Sqrt");
         }
 
+        private void pow_Click(object sender, EventArgs e)
+        {
+            HotDog("Pow");
+        }
+
 
     }
 }

@@ -21,6 +21,8 @@ namespace Case1.BinaryCalculators
                     return new Multiplication();
                 case "Sub":
                     return new Substraction();
+                case "Pow":
+                    return new Pow();
                 default:
                     throw new ArgumentException("Unknown argument", "name");
             }

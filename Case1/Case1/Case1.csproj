@@ -47,6 +47,7 @@
     <Compile Include="BinaryCalculators\Adder.cs" />
     <Compile Include="BinaryCalculators\Deduction.cs" />
     <Compile Include="BinaryCalculators\FactoryClass.cs" />
+    <Compile Include="BinaryCalculators\Pow.cs" />
     <Compile Include="FirstCalculations\Cos.cs" />
     <Compile Include="FirstCalculations\Ctan.cs" />
     <Compile Include="FirstCalculations\FactoryClass2.cs" />

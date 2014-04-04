@@ -182,6 +182,7 @@
             this.pow.TabIndex = 14;
             this.pow.Text = "a^b";
             this.pow.UseVisualStyleBackColor = true;
+            this.pow.Click += new System.EventHandler(this.pow_Click);
             // 
             // Form1
             // 
