@@ -54,6 +54,7 @@
     <Compile Include="BinaryCalculators\IBinaryCalculation.cs" />
     <Compile Include="FirstCalculations\SinClass.cs" />
     <Compile Include="BinaryCalculators\Substraction.cs" />
+    <Compile Include="FirstCalculations\Sqrt.cs" />
     <Compile Include="FirstCalculations\Tan.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

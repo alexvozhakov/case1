@@ -172,6 +172,7 @@
             this.sqrt.TabIndex = 13;
             this.sqrt.Text = "sqrt";
             this.sqrt.UseVisualStyleBackColor = true;
+            this.sqrt.Click += new System.EventHandler(this.sqrt_Click);
             // 
             // pow
             // 

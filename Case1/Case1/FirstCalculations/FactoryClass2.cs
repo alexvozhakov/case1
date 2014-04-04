@@ -20,6 +20,8 @@ namespace Case1.FirstCalculations
                     return new Tan();
                 case "Ctan":
                     return new Ctan();
+                case "Sqrt":
+                    return new Sqrt();
                 default:
                     throw new ArgumentException("Unknown argument", "name");
             }

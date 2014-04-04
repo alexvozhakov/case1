@@ -74,6 +74,11 @@ namespace Case1
             Sandwitch("Ctan");
         }
 
+        private void sqrt_Click(object sender, EventArgs e)
+        {
+            Sandwitch("Sqrt");
+        }
+
 
     }
 }
