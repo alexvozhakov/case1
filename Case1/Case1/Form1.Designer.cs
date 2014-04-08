@@ -72,9 +72,9 @@
             // 
             // Summ
             // 
-            this.Summ.Location = new System.Drawing.Point(79, 194);
+            this.Summ.Location = new System.Drawing.Point(79, 147);
             this.Summ.Name = "Summ";
-            this.Summ.Size = new System.Drawing.Size(46, 44);
+            this.Summ.Size = new System.Drawing.Size(46, 41);
             this.Summ.TabIndex = 3;
             this.Summ.Text = "+";
             this.Summ.UseVisualStyleBackColor = true;
@@ -82,7 +82,7 @@
             // 
             // Mult
             // 
-            this.Mult.Location = new System.Drawing.Point(79, 95);
+            this.Mult.Location = new System.Drawing.Point(79, 98);
             this.Mult.Name = "Mult";
             this.Mult.Size = new System.Drawing.Size(46, 42);
             this.Mult.TabIndex = 4;
@@ -92,9 +92,9 @@
             // 
             // Div
             // 
-            this.Div.Location = new System.Drawing.Point(27, 95);
+            this.Div.Location = new System.Drawing.Point(27, 98);
             this.Div.Name = "Div";
-            this.Div.Size = new System.Drawing.Size(46, 42);
+            this.Div.Size = new System.Drawing.Size(44, 42);
             this.Div.TabIndex = 5;
             this.Div.Text = "/";
             this.Div.UseVisualStyleBackColor = true;
@@ -102,9 +102,9 @@
             // 
             // Deduc
             // 
-            this.Deduc.Location = new System.Drawing.Point(25, 194);
+            this.Deduc.Location = new System.Drawing.Point(27, 146);
             this.Deduc.Name = "Deduc";
-            this.Deduc.Size = new System.Drawing.Size(46, 44);
+            this.Deduc.Size = new System.Drawing.Size(44, 42);
             this.Deduc.TabIndex = 6;
             this.Deduc.Text = "-";
             this.Deduc.UseVisualStyleBackColor = true;
@@ -112,9 +112,9 @@
             // 
             // sin
             // 
-            this.sin.Location = new System.Drawing.Point(131, 95);
+            this.sin.Location = new System.Drawing.Point(256, 98);
             this.sin.Name = "sin";
-            this.sin.Size = new System.Drawing.Size(46, 42);
+            this.sin.Size = new System.Drawing.Size(45, 42);
             this.sin.TabIndex = 7;
             this.sin.Text = "sin";
             this.sin.UseVisualStyleBackColor = true;
@@ -122,9 +122,9 @@
             // 
             // cos
             // 
-            this.cos.Location = new System.Drawing.Point(183, 95);
+            this.cos.Location = new System.Drawing.Point(307, 98);
             this.cos.Name = "cos";
-            this.cos.Size = new System.Drawing.Size(46, 44);
+            this.cos.Size = new System.Drawing.Size(46, 42);
             this.cos.TabIndex = 8;
             this.cos.Text = "cos";
             this.cos.UseVisualStyleBackColor = true;
@@ -132,9 +132,9 @@
             // 
             // Acos
             // 
-            this.Acos.Location = new System.Drawing.Point(359, 96);
+            this.Acos.Location = new System.Drawing.Point(411, 147);
             this.Acos.Name = "Acos";
-            this.Acos.Size = new System.Drawing.Size(46, 44);
+            this.Acos.Size = new System.Drawing.Size(46, 41);
             this.Acos.TabIndex = 9;
             this.Acos.Text = "Acos";
             this.Acos.UseVisualStyleBackColor = true;
@@ -142,9 +142,9 @@
             // 
             // Asin
             // 
-            this.Asin.Location = new System.Drawing.Point(411, 97);
+            this.Asin.Location = new System.Drawing.Point(463, 147);
             this.Asin.Name = "Asin";
-            this.Asin.Size = new System.Drawing.Size(46, 43);
+            this.Asin.Size = new System.Drawing.Size(46, 41);
             this.Asin.TabIndex = 10;
             this.Asin.Text = "Asin";
             this.Asin.UseVisualStyleBackColor = true;
@@ -152,9 +152,9 @@
             // 
             // tan
             // 
-            this.tan.Location = new System.Drawing.Point(25, 143);
+            this.tan.Location = new System.Drawing.Point(359, 98);
             this.tan.Name = "tan";
-            this.tan.Size = new System.Drawing.Size(48, 45);
+            this.tan.Size = new System.Drawing.Size(46, 42);
             this.tan.TabIndex = 11;
             this.tan.Text = "tan";
             this.tan.UseVisualStyleBackColor = true;
@@ -162,9 +162,9 @@
             // 
             // cotan
             // 
-            this.cotan.Location = new System.Drawing.Point(79, 143);
+            this.cotan.Location = new System.Drawing.Point(411, 98);
             this.cotan.Name = "cotan";
-            this.cotan.Size = new System.Drawing.Size(46, 45);
+            this.cotan.Size = new System.Drawing.Size(46, 42);
             this.cotan.TabIndex = 12;
             this.cotan.Text = "ctan";
             this.cotan.UseVisualStyleBackColor = true;
@@ -172,9 +172,9 @@
             // 
             // sqrt
             // 
-            this.sqrt.Location = new System.Drawing.Point(131, 143);
+            this.sqrt.Location = new System.Drawing.Point(463, 98);
             this.sqrt.Name = "sqrt";
-            this.sqrt.Size = new System.Drawing.Size(46, 45);
+            this.sqrt.Size = new System.Drawing.Size(46, 42);
             this.sqrt.TabIndex = 13;
             this.sqrt.Text = "sqrt";
             this.sqrt.UseVisualStyleBackColor = true;
@@ -182,9 +182,9 @@
             // 
             // pow
             // 
-            this.pow.Location = new System.Drawing.Point(183, 143);
+            this.pow.Location = new System.Drawing.Point(515, 98);
             this.pow.Name = "pow";
-            this.pow.Size = new System.Drawing.Size(46, 45);
+            this.pow.Size = new System.Drawing.Size(46, 42);
             this.pow.TabIndex = 14;
             this.pow.Text = "a^b";
             this.pow.UseVisualStyleBackColor = true;
@@ -192,9 +192,9 @@
             // 
             // pow2
             // 
-            this.pow2.Location = new System.Drawing.Point(255, 95);
+            this.pow2.Location = new System.Drawing.Point(307, 147);
             this.pow2.Name = "pow2";
-            this.pow2.Size = new System.Drawing.Size(46, 44);
+            this.pow2.Size = new System.Drawing.Size(46, 41);
             this.pow2.TabIndex = 15;
             this.pow2.Text = "x^2";
             this.pow2.UseVisualStyleBackColor = true;
@@ -202,9 +202,9 @@
             // 
             // log10
             // 
-            this.log10.Location = new System.Drawing.Point(307, 96);
+            this.log10.Location = new System.Drawing.Point(359, 147);
             this.log10.Name = "log10";
-            this.log10.Size = new System.Drawing.Size(46, 43);
+            this.log10.Size = new System.Drawing.Size(46, 41);
             this.log10.TabIndex = 16;
             this.log10.Text = "log10";
             this.log10.UseVisualStyleBackColor = true;
@@ -212,9 +212,9 @@
             // 
             // Atan
             // 
-            this.Atan.Location = new System.Drawing.Point(463, 97);
+            this.Atan.Location = new System.Drawing.Point(515, 147);
             this.Atan.Name = "Atan";
-            this.Atan.Size = new System.Drawing.Size(46, 43);
+            this.Atan.Size = new System.Drawing.Size(46, 41);
             this.Atan.TabIndex = 17;
             this.Atan.Text = "Atan";
             this.Atan.UseVisualStyleBackColor = true;
@@ -222,7 +222,7 @@
             // 
             // ln
             // 
-            this.ln.Location = new System.Drawing.Point(255, 145);
+            this.ln.Location = new System.Drawing.Point(256, 146);
             this.ln.Name = "ln";
             this.ln.Size = new System.Drawing.Size(45, 42);
             this.ln.TabIndex = 18;
