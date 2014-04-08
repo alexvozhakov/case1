@@ -22,6 +22,18 @@ namespace Case1.FirstCalculations
                     return new Ctan();
                 case "Sqrt":
                     return new Sqrt();
+                case "Powsqr":
+                    return new Powsqr();
+                case "log10":
+                    return new log10();
+                case "Acos":
+                    return new Acos();
+                case "Asin":
+                    return new Asin();
+                case "Atan":
+                    return new Atan();
+                case "ln":
+                    return new ln();
                 default:
                     throw new ArgumentException("Unknown argument", "name");
             }

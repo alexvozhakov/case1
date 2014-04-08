@@ -84,6 +84,36 @@ namespace Case1
             HotDog("Pow");
         }
 
+        private void pow2_Click(object sender, EventArgs e)
+        {
+            Sandwitch("Powsqr");
+        }
+
+        private void log10_Click(object sender, EventArgs e)
+        {
+            Sandwitch("log10");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Sandwitch("Acos");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Sandwitch("Asin");
+        }
+
+        private void Atan_Click(object sender, EventArgs e)
+        {
+            Sandwitch("Atan");
+        }
+
+        private void ln_Click(object sender, EventArgs e)
+        {
+            Sandwitch("ln");
+        }
+
 
     }
 }
