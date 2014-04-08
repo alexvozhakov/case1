@@ -44,14 +44,14 @@ namespace Case1
             double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
             double secondArgument = Convert.ToDouble(SecondArgumentField.Text);
             IBinaryCalculation binaryCalculation = FactoryClass.CreateOperation(name);
-            ThirdArgumentField.Text = binaryCalculation.Calculate(firstArgument, secondArgument);
+            ThirdArgumentField.Text = binaryCalculation.Calculate(firstArgument, secondArgument).ToString();
         }
 
         private void Sandwitch(string name)
         {
             double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
             IOneCalculation firstCalculation = FactoryClass2.CreateOperation(name);
-            ThirdArgumentField.Text = firstCalculation.Calculate(firstArgument);
+            ThirdArgumentField.Text = firstCalculation.Calculate(firstArgument).ToString();
         }
 
         private void sin_Click(object sender, EventArgs e)

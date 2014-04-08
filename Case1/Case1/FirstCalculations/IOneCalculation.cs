@@ -2,6 +2,6 @@
 {
     public interface IOneCalculation
     {
-        string Calculate(double firstArgument);
+        double Calculate(double firstArgument);
     }
 }

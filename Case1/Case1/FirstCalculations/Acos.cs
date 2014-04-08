@@ -8,10 +8,10 @@ namespace Case1.FirstCalculations
 {
     class Acos:IOneCalculation
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
             double result = Math.Acos(firstArgument);
-            return result.ToString();
+            return result;
         }
     }
 }

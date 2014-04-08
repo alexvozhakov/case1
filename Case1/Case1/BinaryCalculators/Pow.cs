@@ -8,10 +8,10 @@ namespace Case1.BinaryCalculators
 {
     class Pow:IBinaryCalculation
     {
-        public string Calculate(double firstArgument, double secondArgument)
+        public double Calculate(double firstArgument, double secondArgument)
         {
             double result = Math.Pow(firstArgument , secondArgument);
-            return result.ToString();
+            return result;
         }
     }
 }

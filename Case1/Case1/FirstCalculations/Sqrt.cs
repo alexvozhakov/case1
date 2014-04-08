@@ -8,10 +8,10 @@ namespace Case1.FirstCalculations
 {
     public class Sqrt:IOneCalculation
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
             double result = Math.Sqrt(firstArgument);
-            return result.ToString();
+            return result;
         }
     }
 }

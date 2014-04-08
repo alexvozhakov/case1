@@ -8,10 +8,10 @@ namespace Case1.FirstCalculations
 {
     class Ctan : IOneCalculation
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
             double result = 1/Math.Tan(firstArgument);
-            return result.ToString();
+            return result;
         }
     }
 }
