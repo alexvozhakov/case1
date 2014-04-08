@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Case1.BinaryCalculators;
+﻿using Case1.BinaryCalculators;
 using NUnit.Framework;
 
-namespace Case1.Test
+namespace Case1.Test.BinaryCalculators
 {
     [TestFixture]
-    public class Class1
+    public class AdderTest
     {
         [Test]
         public void AddTest()
