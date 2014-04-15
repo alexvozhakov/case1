@@ -44,6 +44,9 @@
   <ItemGroup>
     <Compile Include="BinaryCalculators\AdderTest.cs" />
     <Compile Include="BinaryCalculators\DeducTest.cs" />
+    <Compile Include="BinaryCalculators\MultTest.cs" />
+    <Compile Include="BinaryCalculators\PowTest.cs" />
+    <Compile Include="BinaryCalculators\SubstractTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
