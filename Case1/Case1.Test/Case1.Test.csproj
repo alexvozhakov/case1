@@ -49,9 +49,11 @@
     <Compile Include="BinaryCalculators\SubstractTest.cs" />
     <Compile Include="FirstCalculations\AcosTest.cs" />
     <Compile Include="FirstCalculations\AsinTest.cs" />
+    <Compile Include="FirstCalculations\AtanTest.cs" />
     <Compile Include="FirstCalculations\CosTest.cs" />
     <Compile Include="FirstCalculations\CotanTest.cs" />
     <Compile Include="FirstCalculations\LnTest.cs" />
+    <Compile Include="FirstCalculations\Log10Test.cs" />
     <Compile Include="FirstCalculations\PowSqrTest.cs" />
     <Compile Include="FirstCalculations\SinTest.cs" />
     <Compile Include="FirstCalculations\SqrtTest.cs" />
