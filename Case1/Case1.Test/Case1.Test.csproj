@@ -47,6 +47,11 @@
     <Compile Include="BinaryCalculators\MultTest.cs" />
     <Compile Include="BinaryCalculators\PowTest.cs" />
     <Compile Include="BinaryCalculators\SubstractTest.cs" />
+    <Compile Include="FirstCalculations\CosTest.cs" />
+    <Compile Include="FirstCalculations\CotanTest.cs" />
+    <Compile Include="FirstCalculations\SinTest.cs" />
+    <Compile Include="FirstCalculations\SqrtTest.cs" />
+    <Compile Include="FirstCalculations\TanClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
