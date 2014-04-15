@@ -49,6 +49,8 @@
     <Compile Include="BinaryCalculators\SubstractTest.cs" />
     <Compile Include="FirstCalculations\CosTest.cs" />
     <Compile Include="FirstCalculations\CotanTest.cs" />
+    <Compile Include="FirstCalculations\LnTest.cs" />
+    <Compile Include="FirstCalculations\PowSqrTest.cs" />
     <Compile Include="FirstCalculations\SinTest.cs" />
     <Compile Include="FirstCalculations\SqrtTest.cs" />
     <Compile Include="FirstCalculations\TanClass.cs" />
