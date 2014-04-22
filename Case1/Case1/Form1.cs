@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Case1.BinaryCalculators;
 using Case1.FirstCalculations;
+using Case1.MassSort;
 
 namespace Case1
 {
@@ -114,6 +115,28 @@ namespace Case1
             Sandwitch("ln");
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Hamburger("Bubble");
+        }
 
+        private void Hamburger(string name)
+        {
+            string[] stringArray = FirstArgumentField.Text.Split(' ');
+            int[] array = new int[stringArray.Length];
+            for (int i = 0; i < stringArray.Length; i++)
+            {
+                array[i] = Convert.ToInt32(stringArray[i]);
+            }
+            ISort sorter = FactorySort.CreateOperation(name);
+            int[] result = sorter.SortMass(array);
+            string stringResult = string.Empty;
+            foreach (int element in result)
+            {
+                stringResult += element + " ";
+
+            }
+            ThirdArgumentField.Text = stringResult;
+        }
     }
 }

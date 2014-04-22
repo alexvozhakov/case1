@@ -70,6 +70,9 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="BinaryCalculators\Multiplication.cs" />
+    <Compile Include="MassSort\Bubble.cs" />
+    <Compile Include="MassSort\FactorySort.cs" />
+    <Compile Include="MassSort\ISort.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

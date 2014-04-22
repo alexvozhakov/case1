@@ -47,6 +47,7 @@
             this.log10 = new System.Windows.Forms.Button();
             this.Atan = new System.Windows.Forms.Button();
             this.ln = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgumentField
@@ -230,11 +231,22 @@
             this.ln.UseVisualStyleBackColor = true;
             this.ln.Click += new System.EventHandler(this.ln_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(142, 98);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(46, 42);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(621, 259);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.ln);
             this.Controls.Add(this.Atan);
             this.Controls.Add(this.log10);
@@ -282,6 +294,7 @@
         private System.Windows.Forms.Button log10;
         private System.Windows.Forms.Button Atan;
         private System.Windows.Forms.Button ln;
+        private System.Windows.Forms.Button button1;
     }
 }
 
