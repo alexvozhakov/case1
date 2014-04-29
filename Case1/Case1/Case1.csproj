@@ -45,7 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinaryCalculators\Adder.cs" />
-    <Compile Include="BinaryCalculators\Deduction.cs" />
+    <Compile Include="BinaryCalculators\Substruction.cs" />
     <Compile Include="BinaryCalculators\FactoryClass.cs" />
     <Compile Include="BinaryCalculators\Pow.cs" />
     <Compile Include="FirstCalculations\Acos.cs" />
@@ -60,7 +60,7 @@
     <Compile Include="FirstCalculations\log10.cs" />
     <Compile Include="FirstCalculations\Powsqr.cs" />
     <Compile Include="FirstCalculations\SinClass.cs" />
-    <Compile Include="BinaryCalculators\Substraction.cs" />
+    <Compile Include="BinaryCalculators\Divider.cs" />
     <Compile Include="FirstCalculations\Sqrt.cs" />
     <Compile Include="FirstCalculations\Tan.cs" />
     <Compile Include="Form1.cs">
@@ -71,6 +71,7 @@
     </Compile>
     <Compile Include="BinaryCalculators\Multiplication.cs" />
     <Compile Include="MassSort\Bubble.cs" />
+    <Compile Include="MassSort\Dwarf.cs" />
     <Compile Include="MassSort\FactorySort.cs" />
     <Compile Include="MassSort\ISort.cs" />
     <Compile Include="Program.cs" />

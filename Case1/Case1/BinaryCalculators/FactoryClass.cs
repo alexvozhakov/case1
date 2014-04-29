@@ -16,11 +16,11 @@ namespace Case1.BinaryCalculators
                 case "Add":
                     return new Adder();
                 case "Ded":
-                    return new Deduction();
+                    return new Substruction();
                 case "Mult":
                     return new Multiplication();
                 case "Sub":
-                    return new Substraction();
+                    return new Divider();
                 case "Pow":
                     return new Pow();
                 default:

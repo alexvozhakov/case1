@@ -14,6 +14,8 @@ namespace Case1.MassSort
             {
                 case "Bubble":
                     return new Bubble();
+                case "Dwarf":
+                    return new Dwarf();
                 default:
                     throw new ArgumentException("Unknown argument", "name");
             }

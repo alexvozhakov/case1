@@ -59,6 +59,7 @@
     <Compile Include="FirstCalculations\SqrtTest.cs" />
     <Compile Include="FirstCalculations\TanClass.cs" />
     <Compile Include="MassSort\BubbleTest.cs" />
+    <Compile Include="MassSort\DwarfTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

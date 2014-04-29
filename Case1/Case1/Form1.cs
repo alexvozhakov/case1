@@ -42,17 +42,31 @@ namespace Case1
 
         private void HotDog(string name )
         {
-            double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
-            double secondArgument = Convert.ToDouble(SecondArgumentField.Text);
-            IBinaryCalculation binaryCalculation = FactoryClass.CreateOperation(name);
-            ThirdArgumentField.Text = binaryCalculation.Calculate(firstArgument, secondArgument).ToString();
+            try
+            {
+                double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
+                double secondArgument = Convert.ToDouble(SecondArgumentField.Text);
+                IBinaryCalculation binaryCalculation = FactoryClass.CreateOperation(name);
+                ThirdArgumentField.Text = binaryCalculation.Calculate(firstArgument, secondArgument).ToString();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
         }
 
         private void Sandwitch(string name)
         {
-            double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
-            IOneCalculation firstCalculation = FactoryClass2.CreateOperation(name);
-            ThirdArgumentField.Text = firstCalculation.Calculate(firstArgument).ToString();
+            try
+            {
+                double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
+                IOneCalculation firstCalculation = FactoryClass2.CreateOperation(name);
+                ThirdArgumentField.Text = firstCalculation.Calculate(firstArgument).ToString();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
         }
 
         private void sin_Click(object sender, EventArgs e)
@@ -122,21 +136,33 @@ namespace Case1
 
         private void Hamburger(string name)
         {
-            string[] stringArray = FirstArgumentField.Text.Split(' ');
-            int[] array = new int[stringArray.Length];
-            for (int i = 0; i < stringArray.Length; i++)
+            try
             {
-                array[i] = Convert.ToInt32(stringArray[i]);
-            }
-            ISort sorter = FactorySort.CreateOperation(name);
-            int[] result = sorter.SortMass(array);
-            string stringResult = string.Empty;
-            foreach (int element in result)
-            {
-                stringResult += element + " ";
+                string[] stringArray = FirstArgumentField.Text.Split(' ');
+                int[] array = new int[stringArray.Length];
+                for (int i = 0; i < stringArray.Length; i++)
+                {
+                    array[i] = Convert.ToInt32(stringArray[i]);
+                }
+                ISort sorter = FactorySort.CreateOperation(name);
+                int[] result = sorter.SortMass(array);
+                string stringResult = string.Empty;
+                foreach (int element in result)
+                {
+                    stringResult += element + " ";
 
+                }
+                ThirdArgumentField.Text = stringResult;
             }
-            ThirdArgumentField.Text = stringResult;
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Hamburger("Dwarf");
         }
     }
 }
