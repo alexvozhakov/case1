@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.AccessControl;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Case1.BinaryCalculators
 {
-    public static class FactoryClass
+    public static class BinaryFactory
     {
         public static IBinaryCalculation CreateOperation(string name)
         {

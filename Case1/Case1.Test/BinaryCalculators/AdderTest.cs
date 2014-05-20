@@ -9,7 +9,7 @@ namespace Case1.Test.BinaryCalculators
         [Test]
         public void AddTest()
         {
-            IBinaryCalculation calculater = FactoryClass.CreateOperation("Add");
+            IBinaryCalculation calculater = BinaryFactory.CreateOperation("Add");
             double result = calculater.Calculate(0.1, 3.4);
             Assert.AreEqual(3.5, result);
         }

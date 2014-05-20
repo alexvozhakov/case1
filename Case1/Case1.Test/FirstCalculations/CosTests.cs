@@ -1,20 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Case1.FirstCalculations;
+﻿using Case1.UnaryCalculations;
 using NUnit.Framework;
 
 namespace Case1.Test.FirstCalculations
 {
     [TestFixture]
-    public class CosTest
+    public class CosTests
     {
         [Test]
         public void CosinusTest()
         {
-            IOneCalculation calculater = FactoryClass2.CreateOperation("Cos");
+            IOneCalculation calculater = UnaryFactory.CreateOperation("Cos");
             double result = calculater.Calculate(0);
             Assert.AreEqual(1, result);
         }

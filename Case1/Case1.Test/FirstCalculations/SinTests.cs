@@ -1,20 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Case1.FirstCalculations;
+﻿using Case1.UnaryCalculations;
 using NUnit.Framework;
 
 namespace Case1.Test.FirstCalculations
 {
     [TestFixture]
-    public class SinTest
+    public class SinTests
     {
         [Test]
         public void SinusTest()
         {
-            IOneCalculation calculater = FactoryClass2.CreateOperation("Sin");
+            IOneCalculation calculater = UnaryFactory.CreateOperation("Sin");
             double result = calculater.Calculate(0);
             Assert.AreEqual(0, result);
         }

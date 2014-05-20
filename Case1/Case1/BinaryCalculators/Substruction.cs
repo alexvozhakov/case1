@@ -1,6 +1,6 @@
 ﻿namespace Case1.BinaryCalculators
 {
-    public class Substruction:IBinaryCalculation
+    public class Substruction : IBinaryCalculation
     {
         public double Calculate(double firstArgument, double secondArgument)
         {

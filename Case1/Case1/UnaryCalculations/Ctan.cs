@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Case1.FirstCalculations
+namespace Case1.UnaryCalculations
 {
-    public class SinClass:IOneCalculation
+    class Ctan : IOneCalculation
     {
         public double Calculate(double firstArgument)
         {
-            double result = Math.Sin(firstArgument);
+            double result = 1/Math.Tan(firstArgument);
             return result;
         }
     }

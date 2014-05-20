@@ -1,6 +1,6 @@
 ﻿namespace Case1.BinaryCalculators
 {
-    public class Multiplication:IBinaryCalculation
+    public class Multiplication : IBinaryCalculation
     {
         public double Calculate(double firstArgument, double secondArgument)
         {

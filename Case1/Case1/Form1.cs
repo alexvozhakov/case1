@@ -1,15 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Case1.BinaryCalculators;
-using Case1.FirstCalculations;
 using Case1.MassSort;
+using Case1.UnaryCalculations;
 
 namespace Case1
 {
@@ -46,7 +39,7 @@ namespace Case1
             {
                 double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
                 double secondArgument = Convert.ToDouble(SecondArgumentField.Text);
-                IBinaryCalculation binaryCalculation = FactoryClass.CreateOperation(name);
+                IBinaryCalculation binaryCalculation = BinaryFactory.CreateOperation(name);
                 ThirdArgumentField.Text = binaryCalculation.Calculate(firstArgument, secondArgument).ToString();
             }
             catch (Exception e)
@@ -60,7 +53,7 @@ namespace Case1
             try
             {
                 double firstArgument = Convert.ToDouble(FirstArgumentField.Text);
-                IOneCalculation firstCalculation = FactoryClass2.CreateOperation(name);
+                IOneCalculation firstCalculation = UnaryFactory.CreateOperation(name);
                 ThirdArgumentField.Text = firstCalculation.Calculate(firstArgument).ToString();
             }
             catch (Exception e)

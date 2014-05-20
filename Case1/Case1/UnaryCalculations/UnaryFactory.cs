@@ -1,19 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Case1.FirstCalculations
+namespace Case1.UnaryCalculations
 {
-    public static class FactoryClass2
+    public static class UnaryFactory
     {
         public static IOneCalculation CreateOperation(string name)
         {
             switch (name)
             {
                 case "Sin":
-                    return new SinClass();
+                    return new Sin();
                 case "Cos":
                     return new Cos();
                 case "Tan":
@@ -25,7 +21,7 @@ namespace Case1.FirstCalculations
                 case "Powsqr":
                     return new Powsqr();
                 case "log10":
-                    return new log10();
+                    return new Log10();
                 case "Acos":
                     return new Acos();
                 case "Asin":
@@ -33,7 +29,7 @@ namespace Case1.FirstCalculations
                 case "Atan":
                     return new Atan();
                 case "ln":
-                    return new ln();
+                    return new Ln();
                 default:
                     throw new ArgumentException("Unknown argument", "name");
             }

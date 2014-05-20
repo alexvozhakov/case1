@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Case1.BinaryCalculators
 {
-    class Pow:IBinaryCalculation
+    class Pow : IBinaryCalculation
     {
         public double Calculate(double firstArgument, double secondArgument)
         {
-            double result = Math.Pow(firstArgument , secondArgument);
+            double result = Math.Pow(firstArgument, secondArgument);
             return result;
         }
     }

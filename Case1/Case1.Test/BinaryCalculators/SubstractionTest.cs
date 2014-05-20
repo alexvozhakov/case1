@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Case1.BinaryCalculators;
+﻿using Case1.BinaryCalculators;
 using NUnit.Framework;
 
 namespace Case1.Test.BinaryCalculators
@@ -14,7 +9,7 @@ namespace Case1.Test.BinaryCalculators
         [Test]
         public void DeducTest()
         {
-            IBinaryCalculation calculater = FactoryClass.CreateOperation("Ded");
+            IBinaryCalculation calculater = BinaryFactory.CreateOperation("Ded");
             double result = calculater.Calculate(4, 3);
             Assert.AreEqual(1, result);
         }

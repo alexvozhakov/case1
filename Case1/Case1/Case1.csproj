@@ -46,23 +46,23 @@
   <ItemGroup>
     <Compile Include="BinaryCalculators\Adder.cs" />
     <Compile Include="BinaryCalculators\Substruction.cs" />
-    <Compile Include="BinaryCalculators\FactoryClass.cs" />
+    <Compile Include="BinaryCalculators\BinaryFactory.cs" />
     <Compile Include="BinaryCalculators\Pow.cs" />
-    <Compile Include="FirstCalculations\Acos.cs" />
-    <Compile Include="FirstCalculations\Asin.cs" />
-    <Compile Include="FirstCalculations\Atan.cs" />
-    <Compile Include="FirstCalculations\Cos.cs" />
-    <Compile Include="FirstCalculations\Ctan.cs" />
-    <Compile Include="FirstCalculations\FactoryClass2.cs" />
-    <Compile Include="FirstCalculations\IOneCalculation.cs" />
+    <Compile Include="UnaryCalculations\Acos.cs" />
+    <Compile Include="UnaryCalculations\Asin.cs" />
+    <Compile Include="UnaryCalculations\Atan.cs" />
+    <Compile Include="UnaryCalculations\Cos.cs" />
+    <Compile Include="UnaryCalculations\Ctan.cs" />
+    <Compile Include="UnaryCalculations\UnaryFactory.cs" />
+    <Compile Include="UnaryCalculations\IOneCalculation.cs" />
     <Compile Include="BinaryCalculators\IBinaryCalculation.cs" />
-    <Compile Include="FirstCalculations\ln.cs" />
-    <Compile Include="FirstCalculations\log10.cs" />
-    <Compile Include="FirstCalculations\Powsqr.cs" />
-    <Compile Include="FirstCalculations\SinClass.cs" />
+    <Compile Include="UnaryCalculations\ln.cs" />
+    <Compile Include="UnaryCalculations\log10.cs" />
+    <Compile Include="UnaryCalculations\Powsqr.cs" />
+    <Compile Include="UnaryCalculations\Sin.cs" />
     <Compile Include="BinaryCalculators\Divider.cs" />
-    <Compile Include="FirstCalculations\Sqrt.cs" />
-    <Compile Include="FirstCalculations\Tan.cs" />
+    <Compile Include="UnaryCalculations\Sqrt.cs" />
+    <Compile Include="UnaryCalculations\Tan.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

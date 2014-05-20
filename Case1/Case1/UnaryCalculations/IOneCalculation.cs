@@ -1,4 +1,4 @@
-﻿namespace Case1.FirstCalculations
+﻿namespace Case1.UnaryCalculations
 {
     public interface IOneCalculation
     {

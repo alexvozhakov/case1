@@ -2,7 +2,7 @@
 
 namespace Case1.BinaryCalculators
 {
-    public class Divider:IBinaryCalculation
+    public class Divider : IBinaryCalculation
     {
         public double Calculate(double firstArgument, double secondArgument)
         {

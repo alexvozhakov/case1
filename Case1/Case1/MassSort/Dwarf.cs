@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Case1.MassSort
+﻿namespace Case1.MassSort
 {
     public class Dwarf : ISort
     {
@@ -21,9 +15,9 @@ namespace Case1.MassSort
                 }
                 else
                 {
-                    int b = firstArgument[i - 1];
+                    int swapValue = firstArgument[i - 1];
                     firstArgument[i - 1] = firstArgument[i];
-                    firstArgument[i] = b;
+                    firstArgument[i] = swapValue;
                     i--;
                     if (i == 0)
                     {
